@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2174EC2F20E62BFD00F565B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174EC2E20E62BFD00F565B3 /* AppDelegate.swift */; };
+		2174EC3120E62BFD00F565B3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2174EC3020E62BFD00F565B3 /* art.scnassets */; };
+		2174EC3320E62BFD00F565B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174EC3220E62BFD00F565B3 /* ViewController.swift */; };
+		2174EC3620E62BFD00F565B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2174EC3420E62BFD00F565B3 /* Main.storyboard */; };
+		2174EC3820E62BFF00F565B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2174EC3720E62BFF00F565B3 /* Assets.xcassets */; };
+		2174EC3B20E62BFF00F565B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2174EC3920E62BFF00F565B3 /* LaunchScreen.storyboard */; };
+		2174EC4620E62BFF00F565B3 /* AR_ImageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174EC4520E62BFF00F565B3 /* AR_ImageAppTests.swift */; };
+		2174EC5120E62BFF00F565B3 /* AR_ImageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174EC5020E62BFF00F565B3 /* AR_ImageAppUITests.swift */; };
+		21F417BD218B15F6002569C5 /* IMG_2397.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F417BC218B15F6002569C5 /* IMG_2397.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2174EC4220E62BFF00F565B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2174EC2320E62BFD00F565B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2174EC2A20E62BFD00F565B3;
+			remoteInfo = "AR-ImageApp";
+		};
+		2174EC4D20E62BFF00F565B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2174EC2320E62BFD00F565B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2174EC2A20E62BFD00F565B3;
+			remoteInfo = "AR-ImageApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2174EC2B20E62BFD00F565B3 /* AR-ImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-ImageApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2174EC2E20E62BFD00F565B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2174EC3020E62BFD00F565B3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2174EC3220E62BFD00F565B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2174EC3520E62BFD00F565B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2174EC3720E62BFF00F565B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2174EC3A20E62BFF00F565B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2174EC3C20E62BFF00F565B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2174EC4120E62BFF00F565B3 /* AR-ImageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-ImageAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2174EC4520E62BFF00F565B3 /* AR_ImageAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_ImageAppTests.swift; sourceTree = "<group>"; };
+		2174EC4720E62BFF00F565B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2174EC4C20E62BFF00F565B3 /* AR-ImageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-ImageAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2174EC5020E62BFF00F565B3 /* AR_ImageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_ImageAppUITests.swift; sourceTree = "<group>"; };
+		2174EC5220E62BFF00F565B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F417BC218B15F6002569C5 /* IMG_2397.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2397.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2174EC2820E62BFD00F565B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2174EC3E20E62BFF00F565B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2174EC4920E62BFF00F565B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2174EC2220E62BFD00F565B3 = {
+			isa = PBXGroup;
+			children = (
+				2174EC2D20E62BFD00F565B3 /* AR-ImageApp */,
+				2174EC4420E62BFF00F565B3 /* AR-ImageAppTests */,
+				2174EC4F20E62BFF00F565B3 /* AR-ImageAppUITests */,
+				2174EC2C20E62BFD00F565B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2174EC2C20E62BFD00F565B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2174EC2B20E62BFD00F565B3 /* AR-ImageApp.app */,
+				2174EC4120E62BFF00F565B3 /* AR-ImageAppTests.xctest */,
+				2174EC4C20E62BFF00F565B3 /* AR-ImageAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2174EC2D20E62BFD00F565B3 /* AR-ImageApp */ = {
+			isa = PBXGroup;
+			children = (
+				2174EC2E20E62BFD00F565B3 /* AppDelegate.swift */,
+				2174EC3020E62BFD00F565B3 /* art.scnassets */,
+				2174EC3220E62BFD00F565B3 /* ViewController.swift */,
+				2174EC3420E62BFD00F565B3 /* Main.storyboard */,
+				2174EC3720E62BFF00F565B3 /* Assets.xcassets */,
+				2174EC3920E62BFF00F565B3 /* LaunchScreen.storyboard */,
+				2174EC3C20E62BFF00F565B3 /* Info.plist */,
+				21F417BC218B15F6002569C5 /* IMG_2397.png */,
+			);
+			path = "AR-ImageApp";
+			sourceTree = "<group>";
+		};
+		2174EC4420E62BFF00F565B3 /* AR-ImageAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2174EC4520E62BFF00F565B3 /* AR_ImageAppTests.swift */,
+				2174EC4720E62BFF00F565B3 /* Info.plist */,
+			);
+			path = "AR-ImageAppTests";
+			sourceTree = "<group>";
+		};
+		2174EC4F20E62BFF00F565B3 /* AR-ImageAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2174EC5020E62BFF00F565B3 /* AR_ImageAppUITests.swift */,
+				2174EC5220E62BFF00F565B3 /* Info.plist */,
+			);
+			path = "AR-ImageAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2174EC2A20E62BFD00F565B3 /* AR-ImageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2174EC5520E62BFF00F565B3 /* Build configuration list for PBXNativeTarget "AR-ImageApp" */;
+			buildPhases = (
+				2174EC2720E62BFD00F565B3 /* Sources */,
+				2174EC2820E62BFD00F565B3 /* Frameworks */,
+				2174EC2920E62BFD00F565B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-ImageApp";
+			productName = "AR-ImageApp";
+			productReference = 2174EC2B20E62BFD00F565B3 /* AR-ImageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2174EC4020E62BFF00F565B3 /* AR-ImageAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2174EC5820E62BFF00F565B3 /* Build configuration list for PBXNativeTarget "AR-ImageAppTests" */;
+			buildPhases = (
+				2174EC3D20E62BFF00F565B3 /* Sources */,
+				2174EC3E20E62BFF00F565B3 /* Frameworks */,
+				2174EC3F20E62BFF00F565B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2174EC4320E62BFF00F565B3 /* PBXTargetDependency */,
+			);
+			name = "AR-ImageAppTests";
+			productName = "AR-ImageAppTests";
+			productReference = 2174EC4120E62BFF00F565B3 /* AR-ImageAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2174EC4B20E62BFF00F565B3 /* AR-ImageAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2174EC5B20E62BFF00F565B3 /* Build configuration list for PBXNativeTarget "AR-ImageAppUITests" */;
+			buildPhases = (
+				2174EC4820E62BFF00F565B3 /* Sources */,
+				2174EC4920E62BFF00F565B3 /* Frameworks */,
+				2174EC4A20E62BFF00F565B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2174EC4E20E62BFF00F565B3 /* PBXTargetDependency */,
+			);
+			name = "AR-ImageAppUITests";
+			productName = "AR-ImageAppUITests";
+			productReference = 2174EC4C20E62BFF00F565B3 /* AR-ImageAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2174EC2320E62BFD00F565B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = shunichi;
+				TargetAttributes = {
+					2174EC2A20E62BFD00F565B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					2174EC4020E62BFF00F565B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 2174EC2A20E62BFD00F565B3;
+					};
+					2174EC4B20E62BFF00F565B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = 2174EC2A20E62BFD00F565B3;
+					};
+				};
+			};
+			buildConfigurationList = 2174EC2620E62BFD00F565B3 /* Build configuration list for PBXProject "AR-ImageApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2174EC2220E62BFD00F565B3;
+			productRefGroup = 2174EC2C20E62BFD00F565B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2174EC2A20E62BFD00F565B3 /* AR-ImageApp */,
+				2174EC4020E62BFF00F565B3 /* AR-ImageAppTests */,
+				2174EC4B20E62BFF00F565B3 /* AR-ImageAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2174EC2920E62BFD00F565B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F417BD218B15F6002569C5 /* IMG_2397.png in Resources */,
+				2174EC3120E62BFD00F565B3 /* art.scnassets in Resources */,
+				2174EC3B20E62BFF00F565B3 /* LaunchScreen.storyboard in Resources */,
+				2174EC3820E62BFF00F565B3 /* Assets.xcassets in Resources */,
+				2174EC3620E62BFD00F565B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2174EC3F20E62BFF00F565B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2174EC4A20E62BFF00F565B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2174EC2720E62BFD00F565B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2174EC3320E62BFD00F565B3 /* ViewController.swift in Sources */,
+				2174EC2F20E62BFD00F565B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2174EC3D20E62BFF00F565B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2174EC4620E62BFF00F565B3 /* AR_ImageAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2174EC4820E62BFF00F565B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2174EC5120E62BFF00F565B3 /* AR_ImageAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2174EC4320E62BFF00F565B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2174EC2A20E62BFD00F565B3 /* AR-ImageApp */;
+			targetProxy = 2174EC4220E62BFF00F565B3 /* PBXContainerItemProxy */;
+		};
+		2174EC4E20E62BFF00F565B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2174EC2A20E62BFD00F565B3 /* AR-ImageApp */;
+			targetProxy = 2174EC4D20E62BFF00F565B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2174EC3420E62BFD00F565B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2174EC3520E62BFD00F565B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2174EC3920E62BFF00F565B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2174EC3A20E62BFF00F565B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2174EC5320E62BFF00F565B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2174EC5420E62BFF00F565B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2174EC5620E62BFF00F565B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BT7MS8WJ;
+				INFOPLIST_FILE = "AR-ImageApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shunichi.AR-ImageApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2174EC5720E62BFF00F565B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BT7MS8WJ;
+				INFOPLIST_FILE = "AR-ImageApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shunichi.AR-ImageApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2174EC5920E62BFF00F565B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BT7MS8WJ;
+				INFOPLIST_FILE = "AR-ImageAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shunichi.AR-ImageAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-ImageApp.app/AR-ImageApp";
+			};
+			name = Debug;
+		};
+		2174EC5A20E62BFF00F565B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BT7MS8WJ;
+				INFOPLIST_FILE = "AR-ImageAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shunichi.AR-ImageAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-ImageApp.app/AR-ImageApp";
+			};
+			name = Release;
+		};
+		2174EC5C20E62BFF00F565B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BT7MS8WJ;
+				INFOPLIST_FILE = "AR-ImageAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shunichi.AR-ImageAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR-ImageApp";
+			};
+			name = Debug;
+		};
+		2174EC5D20E62BFF00F565B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34BT7MS8WJ;
+				INFOPLIST_FILE = "AR-ImageAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shunichi.AR-ImageAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR-ImageApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2174EC2620E62BFD00F565B3 /* Build configuration list for PBXProject "AR-ImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2174EC5320E62BFF00F565B3 /* Debug */,
+				2174EC5420E62BFF00F565B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2174EC5520E62BFF00F565B3 /* Build configuration list for PBXNativeTarget "AR-ImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2174EC5620E62BFF00F565B3 /* Debug */,
+				2174EC5720E62BFF00F565B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2174EC5820E62BFF00F565B3 /* Build configuration list for PBXNativeTarget "AR-ImageAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2174EC5920E62BFF00F565B3 /* Debug */,
+				2174EC5A20E62BFF00F565B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2174EC5B20E62BFF00F565B3 /* Build configuration list for PBXNativeTarget "AR-ImageAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2174EC5C20E62BFF00F565B3 /* Debug */,
+				2174EC5D20E62BFF00F565B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2174EC2320E62BFD00F565B3 /* Project object */;
+}
