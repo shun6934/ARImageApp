@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AR-ImageApp.xcodeproj">
+      location = "self:/Users/shunichi/Work/iOS/Swift/My Apps/AR-ImageApp/ARImageApp.xcodeproj">
    </FileRef>
 </Workspace>
