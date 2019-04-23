@@ -16,7 +16,7 @@ ARKitを使用し、iPhoneのカメラがある画像を認識した際に、別
 2. ARKit1.5で可能になった画像認識を使いこなせるようにする。
 
 ## Function
-![アプリ画面](https://github.com/shun6934/ARImageApp/wiki/images/screen_shot/png)
+![アプリ画面](https://github.com/shun6934/ARImageApp/wiki/images/screen_shot.png)
 
 - 任意の画像をアプリが認識すると、アプリ上に自分が設定した画像が表示される。
 
